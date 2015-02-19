@@ -12,7 +12,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new SurfaceViewSample(this));
+        //setContentView(new SurfaceViewSample(this)); サンプル1
+        setContentView(new SurfaceViewWithOnTouch(this));
+
     }
 
 
